@@ -68,7 +68,7 @@ p {
 
 /* สมาชิก */
 #members {
-    max-width: 420px;
+    max-width: 920px; /* ขยายความกว้างเพื่อให้ 3 กล่องวางเรียงกันได้ */
     margin: 0 auto 50px;
     background: #111827;
     padding: 25px;
