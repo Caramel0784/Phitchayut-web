@@ -1,13 +1,13 @@
 🎨 ตัวอย่างไฟล์ css/style.css
 body {
     font-family: 'Segoe UI', Tahoma, sans-serif;
-    background: linear-gradient(135deg, #1e3a8a, #38bdf8);
+    background: linear-gradient(135deg, #009900, #00FF99);
     margin: 0;
     padding: 0;
 }
 
 .container {
-    background-color: #ffffff;
+    background-color: #FAF0E6;
     width: 400px;
     margin: 80px auto;
     padding: 30px;
@@ -24,18 +24,18 @@ body {
 }
 
 h1 {
-    color: #1e3a8a;
+    color: #009900;
     margin-bottom: 5px;
 }
 
 h2 {
-    color: #64748b;
+    color: #363636;
     font-size: 18px;
     margin-bottom: 15px;
 }
 
 p {
-    color: #334155;
+    color: #104E8B;
     font-size: 15px;
     line-height: 1.6;
 }
@@ -44,13 +44,13 @@ p {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 25px;
-    background-color: #1e3a8a;
-    color: #ffffff;
+    background-color: #009900;
+    color: #FAF0E6;
     text-decoration: none;
     border-radius: 25px;
     transition: 0.3s;
 }
 
 .btn:hover {
-    background-color: #0f172a;
+    background-color:#551A8B;
 }
