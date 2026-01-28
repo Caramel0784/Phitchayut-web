@@ -9,7 +9,8 @@
         .members-grid {
             display: flex;
             gap: 20px;
-            flex-wrap: wrap;
+            flex-wrap: nowrap; /* เปลี่ยนเป็น nowrap เพื่อให้เป็นแนวนอนเป็นหลัก */
+            justify-content: center; /* จัดกึ่งกลางแนวนอน */
             margin-top: 16px;
         }
         .member {
@@ -17,6 +18,8 @@
             width: 260px; /* ปรับขนาดกล่องตามต้องการ */
             padding: 16px;
             text-align: center;
+            background: #020617; /* ให้พื้นหลังแต่ละกล่องเพื่อความชัดเจน */
+            border-radius: 12px;
         }
         .member .profile {
             width: 120px;
@@ -25,6 +28,7 @@
             border-radius: 50%;
             display: block;
             margin: 0 auto 12px;
+            border: 3px solid #38bdf8;
         }
     </style>
 </head>
@@ -50,20 +54,20 @@
         <h2>สมาชิกในกลุ่ม</h2>
 
         <div class="members-grid">
-            <div class="container member">
+            <div class="member">
                 <img src="images/member1.jpg" alt="นายพุติชัย ภูเขียว" class="profile">
                 <h3>นายพุติชัย ภูเขียว</h3>
                 <p>สมาชิกกลุ่ม</p>
                 <!-- สามารถใส่ลิงก์หรือข้อมูลเพิ่มเติมได้ที่นี่ -->
             </div>
 
-            <div class="container member">
+            <div class="member">
                 <img src="images/member2.jpg" alt="นายธีรานนท์ คณาชัยวืรัตน์" class="profile">
                 <h3>นายธีรานนท์ คณาชัยวืรัตน์</h3>
                 <p>สมาชิกกลุ่ม</p>
             </div>
 
-            <div class="container member">
+            <div class="member">
                 <img src="images/member3.jpg" alt="นายธีรเดช คำภูเรือง" class="profile">
                 <h3>นายธีรเดช คำภูเรือง</h3>
                 <p>สมาชิกกลุ่ม</p>
